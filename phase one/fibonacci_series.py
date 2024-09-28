@@ -1,8 +1,4 @@
 
-
-
-
-
 #inital approach
 def fibonacci_one(limit):
   arr = [0,1]
