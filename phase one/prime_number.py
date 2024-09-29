@@ -5,15 +5,24 @@ def prime_number(num):
   is_prime = True
   
   for i in range(2,int(num**0.5)+1):
-    print(int(num**0.5))
-    print( num % i)
+  
     if num % i == 0:
       is_prime = False
       break
-  if is_prime:
-    print("The Number is Prime")
-  else:
-    print("The Number is not Prime")
-      
-      
-prime_number(10)
+  return is_prime
+ 
+ 
+def in_range(arr):
+  prime_numbers = []
+  start = arr[0]
+  end = arr[1] + 1
+  for i in range(start, end):  
+    is_prime = prime_number(i) 
+    
+    if is_prime:
+      prime_numbers.append(i)
+    
+  return prime_numbers
+
+ 
+print(in_range([10,20]))
