@@ -1,6 +1,6 @@
 
 
-
+# below function finds prime number
 def prime_number(num):
   is_prime = True
   
@@ -12,6 +12,8 @@ def prime_number(num):
   return is_prime
  
  
+#below function utilizes prime_number function for finding
+# prime numbers in the given range
 def in_range(arr):
   prime_numbers = []
   start = arr[0]
