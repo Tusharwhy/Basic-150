@@ -20,7 +20,7 @@ def armstrong_number(number):
   
   return False
     
-
+#GETTING  ARMSTRONG NUMBER IN RANGE
 def armstrong_number_in_range(arr):
   start = arr[0]
   end = arr[1]
