@@ -1,4 +1,4 @@
-# code for finding out the even numbers
+# code for finding out the even numbers in range
 
 def even_numbers(arr):
   end = arr[1]
